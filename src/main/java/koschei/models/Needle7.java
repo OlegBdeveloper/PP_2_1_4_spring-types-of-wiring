@@ -5,13 +5,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Needle7 {
-    private Deth8 deth;
     @Autowired
-    public Needle7(Deth8 deth) {
-        this.deth = deth;
+    public Needle7() {
+
     }
     @Override
     public String toString() {
-        return ", смерть Кощея на игле :( " + deth.toString();
+
+        return ", смерть Кощея на игле :( ";
     }
 }
